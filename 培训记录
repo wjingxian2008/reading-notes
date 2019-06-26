@@ -1,0 +1,26 @@
+#20190620 oo对象
+
+**使用gradle快速搭建项目**
+  1. gradle init --type java-library
+  2. 在gradle.build 的plugins 中添加配置，id 'idea'
+   
+   (```)
+     plugins {
+       // Apply the java-library plugin to add support for Java Library
+       id 'java-library'
+       id 'idea'
+     }
+   (```)
+
+  3. open *.ipr
+
+**快速生成.gitignore 配置项的方法**
+   *https://www.gitignore.io*
+
+**对象实现原则**
+  1. 通过构造方法传递参数
+  2. 单元测试使用setup @Before
+  3. 谨慎使用getter 和 setter
+
+**github repo** 
+  阅读 awsome java
